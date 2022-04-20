@@ -17,16 +17,37 @@
   color: #555;
 }
 
-footer .nav {
-  margin-bottom: 1rem;
-}
+footer {
+  & div {
+    margin-bottom: 1rem;
+  }
+  
+  & ul.footer-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    li {
+      @include transition(all .2s ease-out);
+      color: $default-color;
+      display: inline-block;
+      opacity: .6;
+      padding: 0 2rem 0 0;
 
-.nav ul.footer-nav {
-  margin: 0;
-}
+      &:last-child {
+        padding-right: 0;
+      }
 
-@media (min-width: 600px) {
-  .nav ul {
-    position: relative;
+      & a {
+        color: $default-color;
+        font-family: $sans-serif;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
   }
 }
