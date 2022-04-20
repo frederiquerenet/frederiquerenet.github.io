@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import 'rain';
+
+.tagline {
+  margin: 0;
+  font-style: italic;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 30px;
+  color: #555;
+}
+
+footer .nav {
+  margin-bottom: 1rem;
+}
+
+.nav ul.footer-nav {
+  margin: 0;
+}
