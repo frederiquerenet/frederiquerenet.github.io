@@ -24,3 +24,9 @@ footer .nav {
 .nav ul.footer-nav {
   margin: 0;
 }
+
+@media (min-width: 600px) {
+  .nav ul {
+    position: relative;
+  }
+}
