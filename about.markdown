@@ -31,9 +31,13 @@ Est-ce que je m'entends avec tout le monde ? Non, même si c'est parfois dur à 
 
 Mes citations préférées (en version originale) :
 >Creativity is intelligence having fun --Albert Einstein
+
 >Experience is simply the name we give our mistakes --Oscar Wilde
+
 >Genius is one percent inspiration and ninety-nine percent perspiration --Thomas A. Edison
+
 >The difficulty lies not so much in developing new ideas as in escaping from old ones --John Maynard Keynes
+
 >Oh good. For a moment there, I thought we were in trouble --Butch Cassidy to Sundance Kid dans le film Butch Cassidy and the Sundance Kid (1969)
 
 Pour en savoir plus sur mon parcours professionnel, rendez-vous sur [LinkedIn](https://fr.linkedin.com/in/frederiquerenet).
