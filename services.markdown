@@ -16,3 +16,9 @@ Ma mission est de donner envie à vos candidats et vos collaborateurs de travail
 - Je vous accompagne dans la définition de votre stratégie de communication RH.
 - Je prends en charge la production de vos contenus employeur.
 - J'assure la gestion éditoriale de votre site ou pages carrière ainsi que des espaces intranet spécifiques (managers, onboarding, mobilité interne, formation…) et réseaux sociaux internes ou externes.
+
+Infos pratiques :
+- j'habite à Cergy (Val d'Oise). Je peux travailler dans vos locaux à Paris et 30 km autour.
+- j'interviens de façon ponctuelle ou de façon récurrente.
+- Je peux prendre en charge votre communication employeur de façon externalisée (jusqu'à 10 jours par mois).
+- 
