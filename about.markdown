@@ -4,12 +4,13 @@ title: Qui suis-je ?
 permalink: /about/
 ---
 
-Je m'appelle Frédérique
+Je m'appelle Frédérique Renet
+
 # Je suis chargée de Communication & Marketing RH indépendante
 et j'aide les DRH à développer l'attractivité employeur de leur organisation grâce à une stratégie de contenus éditoriaux ciblée et originale.
 
 ## Utiliser la puissance du marketing de contenu au service de votre stratégie employeur 
-Travailler sa stratégie de contenu employeur, c'est :
+Travailler votre stratégie de contenu employeur, c'est :
 - **vous différencier** pour atteindre les meilleurs profils et acquérir des candidats qualifiés ;
 - vous aider à **fidéliser** vos talents et maintenir la qualité de service et des produits de votre entreprise.
 
@@ -29,7 +30,7 @@ J'approche la vie avec un esprit ouvert et imagination. J'aime aller au-delà de
 
 Est-ce que je m'entends avec tout le monde ? Non, même si c'est parfois dur à admettre. Si vous recherchez un partenaire pour collaborer, innover et grandir sur le long terme, je serais ravie d'échanger avec vous.
 
-Mes citations préférées (en version originale) :
+Mes citations préférées :
 >Creativity is intelligence having fun --Albert Einstein
 
 >Experience is simply the name we give our mistakes --Oscar Wilde
