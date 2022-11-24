@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Bienvenue dans Jekyll!"
 author: "Jekyll"
 tags: ["jekyll", "configuration", "docs", "example"]
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Vous trouverez cet article dans votre dossier `_posts`. Ouvrez-le dans votre éditeur de code préféré pour le modifier à votre convenance. Vous pouvez reconstruire le site de pleins de manières différentes, mais la façon la plus classique est de lancer la commande `jekyll serve` dans un terminal, ce qui lance un serveur web et génère automatiquement votre site lorsqu'une page est modifiée.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Pour ajouter de nouveaux articles, ajouter simplement un fichier dans le répertoire `_posts`, en suivant la convention de nommage suivante : `YYYY-MM-DD-titre-du-post.md` et en incluant les informations nécessaires du modèle de page. Jeter un coup d'oeil au code source de ce post pour avoir une idée de comment cela fonctionne.
 
-Jekyll also offers powerful support for code snippets: like these
+Jekyll offre aussi un support de première ordre pour des code snippets. Exemple :
 
 {% highlight ruby %}
 def print_hi(name)
@@ -19,7 +19,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Consultez les [Jekyll docs][jekyll-docs] pour plus d'informations sur comment utiliser au mieux Jekyll. Signalez les bugs/demandes de fonctionnalités à [Jekyll’s GitHub repo][jekyll-gh]. Si vous avez des questions, posez-les sur [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

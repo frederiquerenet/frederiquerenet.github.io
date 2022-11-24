@@ -1,23 +1,23 @@
 ---
 layout: post
-title:  "Introducing Rain"
+title:  "Introduction à Rain"
 author: "Inela"
 ---
 
-Rain is a simple and clean [Jekyll](https://jekyllrb.com/) theme with focus on content. This theme is heavily inspired by [Tale](https://github.com/chesterhow/tale) theme.
+Rain est un thème [Jekyll](https://jekyllrb.com/) simple et minimaliste qui se concentre sur le contenu. Ce thème est très fortement inspiré du thème [Tale](https://github.com/chesterhow/tale).
 
-## Rain features
-- Compatible with GitHub Pages
-- Compatible with Netlify
+## Fonctionnalités de Rain
+- Compatible avec GitHub Pages
+- Compatible avec Netlify
 - Responsive design
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
-- Social media links with icons
-- Related posts
+- Mise en surbrillance de la syntaxe, avec l'aide de Pygments
+- Formatage du texte Markdown et HTML
+- Pagination des posts
+- Liens vers les médias sociaux avec des icônes
+- Posts en lien
 
-## Browser Support
-Rain works on most if not all modern browsers, including Chrome, Safari and Firefox
+## Support des navigateurs
+Rain fonctionne sur la plupart des navigateurs modernes, inclus Chrome, Safari and Firefox
 
-## Download or Contribute
-Rain is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](#).
+## Téléchargement ou contribution
+Rain est hébergé publiquement sur GitHub, donc rendez-vous [GitHub repository](#) pour le télécharger ou le forker.
