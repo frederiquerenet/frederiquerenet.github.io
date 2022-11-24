@@ -4,14 +4,14 @@ layout: default
 
 <div class="post">
 
+  <h1 class="post-title">
+    <div>{{ page.title }}</div>
+  </h1>
   <div class="post-info">
     {% if page.date %}
     <time datetime="{{ page.date }}">{{ page.date | date: "%d/%b/%Y" }}</time>
     {% endif %}
   </div>
-  <h1 class="post-title">
-    <div>{{ page.title }}</div>
-  </h1>
 
   {{ content }}
 
