@@ -10,12 +10,20 @@
         <h2 class="nav-title">{{ site.title }}</h2>
         <p class="tagline"></p>
       </a>
-      <!-- (pages de sites web)
       <ul class="nav-social-icons">
-        <li><a href="/about/">Qui suis-je ?</a></li>
-        <li><a href="/services/">Services</a></li>
+        {% if site.social.email %}
+          <li><a target="_blank" href="mailto:{{ site.social.email }}"><i class="fas fa-envelope"></i></a></li>
+        {% endif %}
+        {% if site.social.github %}
+          <li><a target="_blank" href="{{ site.social.github }}"><i class="fab fa-github"></i></a></li>
+        {% endif %}
+        {% if site.social.twitter %}
+          <li><a target="_blank" href="{{ site.social.twitter }}"><i class="fab fa-twitter"></i></a></li>
+        {% endif %}
+        {% if site.social.linkedin %}
+          <li><a target="_blank" href="{{ site.social.linkedin }}"><i class="fab fa-linkedin-in"></i></a></li>
+        {% endif %}
       </ul>
-      -->
     </div>
   </nav>
 
@@ -24,23 +32,6 @@
   </main>
 
   <footer>
-    <div>
-      <h4 class="footer-title">Me contacter ou me suivre</h4>
-      <ul class="footer-nav">
-        {% if site.social.email %}
-        <li><a target="_blank" href="mailto:{{ site.social.email }}"><i
-              class="fas fa-envelope"></i></a></li>
-        {% endif %}
-        {% if site.social.linkedin %}
-        <li><a target="_blank" href="{{ site.social.linkedin }}"><i
-              class="fab fa-linkedin-in"></i></a></li>
-        {% endif %}
-        {% if site.social.twitter %}
-        <li><a target="_blank" href="{{ site.social.twitter }}"><i
-              class="fab fa-twitter"></i></a></li>
-        {% endif %}
-      </ul>
-    </div>
     <span>
       &copy; <time
         datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time>
