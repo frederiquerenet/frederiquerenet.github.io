@@ -1,2 +1,2 @@
 # frren95.github.io
-Mon repo pour mon site web personnel
+Mon repo pour un site statique avec Jekyll et GitHub pages
