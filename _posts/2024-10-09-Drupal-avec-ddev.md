@@ -4,8 +4,6 @@ title:  "Installer Drupal dans un environnement local avec DDEV"
 author: "Frédérique"
 ---
 
-# Installer Drupal dans un environnement local avec DDEV avec Windows
-
 J'ai décidé de suivre les préconisations de l'équipe Drupal pour l'installation en environnement local, aec la solution DDEV.
 
 Je travaille avec Windows 11 édition Pro.
