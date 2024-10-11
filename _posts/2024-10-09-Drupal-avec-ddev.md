@@ -17,16 +17,14 @@ Pour les webmasters débutants dans une contexte similaire, voici les étapes qu
 **Mes ressources**
 
 [installer WSL 2 | Microsoft Learn](https://learn.microsoft.com/fr-fr/windows/wsl/install)
+
 [DDEV installation Windows](https://ddev.readthedocs.io/en/stable/users/install/ddev-installation/#windows)
 
 Je vous recommande d'ouvrir PowerShell en mode administrateur (Windows PowerShell/Exécuter ISE en tant qu'administrateur) pour cette étape.
 
 La commande pour installer wsl avec la distri Ubuntu par défaut : wsl --install
 
-Le script pour installer DDEV sous Ubuntu : Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ddev/ddev/master/scripts/install_ddev_wsl2_docker_inside.ps1'))
-
-N.B. Le script ne fonctionne que pour Ubuntu.
+Copier le script pour installer DDEV sous Ubuntu dans la documentation DDEV. Attention, ce script ne fonctionne que pour une distri Ubuntu.
 
 ## Créer le projet
 
@@ -34,30 +32,33 @@ Lancer une session Ubuntu (cliquer sur l'icône Ubuntu). Cela ouvre un terminal 
 
 **Les commandes**
 
-mkdir nom-projet
-cd nom-projet
+$ mkdir nom-projet
 
-ddev config --project-type=drupal --docroot=web --create-docroot --php-version=8.3
-Il faut absolument rajouter la v.8.3 pour php si vous comptez installer Drupal 11.
-Sinon c'est la version 8.2 de php qui est installée. Et ça met le bazar pour l'installation de Drush ensuite.
+$ cd nom-projet
 
-ddev start
-Les containers démarrent
+$ ddev config --project-type=drupal --docroot=web --create-docroot --php-version=8.3
 
-ddev composer create drupal/recommended-project
-pour installer la dernière version (ici 11)
+Il faut absolument rajouter la v.8.3 pour php si vous comptez installer Drupal 11. Sinon c'est la version 8.2 de php qui est installée. Et ça met le bazar pour l'installation de Drush ensuite.
 
-ddev composer require drush/drush
-pour installer l'outil Drush
+$ ddev start
 
-ddev drush site:install --site-name=MonSite --account-name=admin --account-pass=admin -y
-Drush s'occupe de procéder à l'installation du site
+$ ddev composer create drupal/recommended-project
 
-ddev launch
-ouvre le site créé dans le navigateur par défaut.
+Rappel : cette commande installe la dernière version (ici 11)
 
-ddev stop
-pour arrêter les containers.
+$ ddev composer require drush/drush
+
+$ ddev drush site:install --site-name=MonSite --account-name=admin --account-pass=admin -y
+
+Drush s'occupe de procéder à l'installation du site avec la création du compte super-utilisateur. J'ai mis admin pour exemple. Même mes machines locales ont des noms d'utilisateur et mots de passe sécurisés. C'est une saine habitude à avoir.
+
+$ ddev launch
+
+Pour ouvrir le site créé dans le navigateur par défaut.
+
+$ ddev stop
+
+Pour arrêter les containers, lorsqu'on n'a plus besoin de travailler sur le site.
 
 
 Mon avis : une fois qu'on a les bonnes commandes, ça va très vite. Par contre, ce n'a pas aussi simple que la documentation de Drupal le laisse entendre pour le commun des mortels.
