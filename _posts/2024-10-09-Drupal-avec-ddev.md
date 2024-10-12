@@ -16,7 +16,7 @@ Pour les webmasters débutants dans une contexte similaire, voici les étapes qu
 
 **Mes ressources**
 
-[installer WSL 2 | Microsoft Learn](https://learn.microsoft.com/fr-fr/windows/wsl/install)
+[installer WSL 2 Microsoft Learn](https://learn.microsoft.com/fr-fr/windows/wsl/install)
 
 [DDEV installation Windows](https://ddev.readthedocs.io/en/stable/users/install/ddev-installation/#windows)
 
@@ -64,6 +64,6 @@ Pour arrêter les containers, lorsqu'on n'a plus besoin de travailler sur le sit
 Mon avis : une fois qu'on a les bonnes commandes, ça va très vite. Par contre, ce n'a pas aussi simple que la documentation de Drupal le laisse entendre pour le commun des mortels.
 Mais c'est vrai que cela présente de vrais avantages pour avoir un environnement de développement opérationnel qui réagit bien comme un serveur de prod.
 
-Pour rouvrir par la suite le site, il suffit de rouvrir une session Ubuntu, charger le répertoire du site et saisir les commandes ddev start, puis ddev launch.
+Pour rouvrir par la suite le site, il suffit de rouvrir une session Ubuntu, charger le répertoire du site et saisir les commandes "ddev start", puis "ddev launch".
 
-Ne pas oubliez ddev stop une fois que vous avez terminé de travailler sur le site, pour libérer les ressources.
+N'oubliez pas de passer la commande "ddev stop" une fois que vous avez terminé de travailler sur le site, pour libérer les ressources.
